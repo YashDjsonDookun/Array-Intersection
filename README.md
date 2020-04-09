@@ -1,6 +1,6 @@
 # Array-Intersection
 
--[] There's probably a better and easier of doing this...
+- [] There's probably a better and easier of doing this...
 
 
 Given 2 Arrays, write a function to compute their intersection - the intersection means the numbers that are in both arrays
