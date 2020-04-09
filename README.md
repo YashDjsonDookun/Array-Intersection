@@ -4,6 +4,7 @@
 
 
 Given 2 Arrays, write a function to compute their intersection - the intersection means the numbers that are in both arrays
+
 Note:
 Each element in the result must be unique.
 The result can be in any order.
