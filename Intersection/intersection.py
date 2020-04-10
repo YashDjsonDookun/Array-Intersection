@@ -19,11 +19,14 @@
 
 class Intersection:
 	def intersection(self, nums1, nums2):
+		# Initialize an empty array that will store our common numbers
 		commons = []
+		# Verifies whether an element at a current index of an array is present at any index in another array
 		for i in range (len(nums2)):
 			for j in range (len(nums1)):
 				if nums2[i] == nums1[j]:
 					commons.append(nums1[j])
+		# create a list dictionary out of the array of common digits to remove all duplicates
 		commons = list(dict.fromkeys(commons))
 		return commons
 		
